@@ -1,16 +1,38 @@
 # sanalira
 
-A new Flutter project.
+A new Flutter project for SanaLira company
 
-## Getting Started
+## Documentaion
 
-This project is a starting point for a Flutter application.
+This app developed for SanaLira for getting job.
 
-A few resources to get you started if this is your first Flutter project:
+Used Arch 
+    - MVVM
+    - Repository Pattern
+    - DI
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Folder Arch
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    -base
+    -core
+        -di
+        -extension
+        -network
+        -ui_kit
+    -helper
+    -model
+    -repository
+    -service
+        -base
+        -service
+    -view
+        -auth
+            -widget
+        -banks
+        -onboarding
+    -view_model
+         -auth
+        -banks
+        -onboarding
+    main.dart
+

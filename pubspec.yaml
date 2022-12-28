@@ -29,20 +29,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  #state management
   provider: ^6.0.2
+  #dependcy injection
   get_it: ^7.2.0
+  #fonts
   google_fonts: ^2.3.1
-  flutter_image_compress: ^1.1.0
-  connectivity_plus: ^2.2.1
-  cached_network_image: ^3.1.0
+  #local data
   shared_preferences: ^2.0.13
+  # color schema
   hexcolor: ^2.0.6
-  flutter_svg: ^0.22.0
-  http: ^0.13.4
+  #mask for text inputs
   mask_text_input_formatter: ^2.1.0
+  #responsive
   flutter_screenutil: ^5.3.1
+  # serilization for models
   freezed_annotation: ^2.0.3
   json_annotation: ^4.0.6
+  # data
   dartz: ^0.10.1
   dio: ^4.0.6
   intl: ^0.17.0
